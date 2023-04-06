@@ -1,5 +1,5 @@
 Citizen.CreateThread(function()
-    Functions.Reset()
+    -- Functions.Reset()
 
     local blip = AddBlipForCoord(Config.Blip.position.x, Config.Blip.position.y, Config.Blip.position.z)
     SetBlipSprite(blip, Config.Blip.sprite)
